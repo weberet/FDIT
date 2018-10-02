@@ -1,9 +1,0 @@
-FDIT.desktop in /etc/xdg/autostart navigates to the FDIT folder in /home/pi/FDIT and launches FDITstart.sh using an lx terminal after the desktop loads which in turn launches a full screen version of FDIT.py
-
-Original command for xdg autostart:
-
-Exec=/usr/bin/lxterminal -e /home/pi/FDIT/FDITstart.sh
-new path: /var/www/html/FDIT/FDITstart.sh
-
-new path for FDIT.py:
-"/var/www/html/FDIT/FDIT.py"
